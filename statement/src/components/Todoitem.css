@@ -1,0 +1,28 @@
+.Todoitem{
+    display:flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    
+    margin-top: 20px;
+    
+}
+#container{
+    text-align: center;
+    width:500px;
+    padding:10px;
+    background-color: aqua;
+}
+.title{
+    margin-right: 20px;
+    font-size: 26px;
+    font-weight: bold;
+}
+.id{
+    font-size: 12px;
+    margin-right: 20px;
+}
+.status{
+    color:green;
+    margin-right: 20px;
+}
