@@ -1,0 +1,8 @@
+#done {
+    text-decoration: line-through;
+    color: green;
+}
+
+#Notdone {
+    color: red;
+}

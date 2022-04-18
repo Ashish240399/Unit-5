@@ -5,8 +5,8 @@ function Todoitem({el,statusHandle}){
             <div id="container">
                 <span className="title">{el.title}</span>
                 <span className="id">id:{el.id}</span>
-                <span className="status">{el.status===false? "Not Done":"Done"}</span>
-                <button onClick={()=>{
+                {/* <span className="status">{el.status===false? "Not Done":"Done"}</span> */}
+                <button className={`${el.status===false ? "red":"green"}` }  onClick={()=>{
                     statusHandle(el.id)
                 }}>Tuggle</button>
             </div>
